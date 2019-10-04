@@ -220,15 +220,36 @@ input[type=submit] {
 
 @media screen and (max-width: 768px) {
   .container {
-    padding: 20px;
+    padding: 50px;
+    width:100%;
   }
+  .work {
+    width: 30%;
+    text-align: center;
+  }
+
+  .work h3 {
+    font-weight: 50;
+    line-height: 2px;
+  }
+
 }
 
 @media screen and (max-width: 640px) {
   .container {
     padding: 20px;
   }
+  #logo {
+  width:100%;
+  }
+
+  .work {
+    width: 100%;
+    text-align: center;
+  }
+
   .nav {
     width: 100%;
+    text-align: center;
   }
   }
